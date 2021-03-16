@@ -296,6 +296,7 @@ p{
     z-index: 1;
     overflow: hidden;
 }
+
 #services .service-item::after{
     content: '';
     position: absolute;
@@ -307,9 +308,9 @@ p{
     opacity: .9;
     z-index: -1;
 }
-#services .col-right .icon{
-    height: 80px;
-    width: 80px;
+#services .col-right .icon img{
+    height: 20vh;
+    width: 20vh;
     margin-bottom: 20px;
 }
 #services .service-item h2{
